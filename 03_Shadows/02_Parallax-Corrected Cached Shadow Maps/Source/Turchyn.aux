@@ -1,0 +1,167 @@
+\relax 
+\citation{CrytekRyse}
+\citation{CSMScrolling}
+\citation{ShadowsInGames}
+\citation{WitcherTerrain}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Parallax-Corrected Cached Shadow Maps}{1}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{Turchyn-chapter}{{1}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}Introduction}{1}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{Teaser:a}{{\caption@xref {Teaser:a}{ on input line 17}}{1}}
+\newlabel{Teaser:b}{{\caption@xref {Teaser:b}{ on input line 18}}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces \relax \fontsize  {9}{11}\selectfont  \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Shadows from a moving directional light rendered using two shadow map cascades. The first (near) cascade is updated every frame, and the second (far) cascade is cached and invalidated infrequently. The left image shows a mismatch between the cascades since the cached cascade is rendered with a light direction that was captured many frames ago. Parallax correction fixes this divergence as shown on the right image.\relax }}{1}}
+\newlabel{Fig:Teaser}{{1.1}{1}}
+\citation{Reprojection}
+\citation{Reprojection2}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}Parallax Correction Algorithm}{2}}
+\newlabel{Eq:1}{{1.1}{2}}
+\newlabel{PCSM:a}{{1.2a}{3}}
+\newlabel{sub@PCSM:a}{{(a)}{a}}
+\newlabel{PCSM:b}{{1.2b}{3}}
+\newlabel{sub@PCSM:b}{{(b)}{b}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces \relax \fontsize  {9}{11}\selectfont  \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Parallax correction algorithm.\relax }}{3}}
+\newlabel{Fig:PCSM}{{1.2}{3}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {The shadow map is rendered for a light direction $L_0$. The point $P_{occ}$ is starting to occlude $P_1$ rather than $P_0$ when the light changes its direction from $L_0$ to $L_1$. Our idea is to sample shadows at $P_0$ using the shadow map computed for light direction $L_0$, and take the resulting shadow factor for shadow intensity at $P_1$.}}}{3}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {We walk along the direction $D$ starting from $P_1$ in small increments, sampling the shadow map at each point $S_i$ and accumulating occluder distance values, and stop after certain number of iterations. We compute the average value of accumulated occluder distances, which usually gets us decent approximation of $P_0$ via Eq. 1.4\hbox {}.}}}{3}}
+\newlabel{Eq:2}{{1.2}{3}}
+\newlabel{Eq:3}{{1.3}{3}}
+\newlabel{OccluderSearch:a}{{1.3a}{4}}
+\newlabel{sub@OccluderSearch:a}{{(a)}{a}}
+\newlabel{OccluderSearch:b}{{1.3b}{4}}
+\newlabel{sub@OccluderSearch:b}{{(b)}{b}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces \relax \fontsize  {9}{11}\selectfont  \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Occluder search.\relax }}{4}}
+\newlabel{Fig:OccluderSearch}{{1.3}{4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Occluder search with 5 iterations and $k = 1.5$. We are sampling shadow map depths at each step to compute the distance from a point on the ray to its occluder, if there's any. }}}{4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Effect of parameter $k$ on search vector $D$. The value $k = 1.5$ would give incorrect results because some points on the search ray are located inside shadow casting geometry. }}}{4}}
+\newlabel{Eq:4}{{1.4}{4}}
+\newlabel{Eq:5}{{1.5}{4}}
+\newlabel{Eq:6}{{1.6}{5}}
+\newlabel{List:Parallax}{{1.1}{6}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1.1}Example implementation of the parallax correction for a simple orthogonal shadow map.}{6}}
+\citation{PCSS}
+\citation{PCSS}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces \relax \fontsize  {9}{11}\selectfont  \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Defects occuring with high depth variation of overlapping shadow casters. From left to right: the cylinder, which is larger and further away from the camera, and the smaller but closer cone are casting partially overlapping shadows; \textit  {percentage-closer soft shadows} algorithm (see\nobreakspace  {}\cite  {PCSS}) gives incorrect estimation of penumbra size due to high variation in depth of the shadow casters resulting into the lack of sharp shadows near the cone base; our parallax correction algorithm also produces incorrect results for the same reasons (overestimation of occluder distance); penumbra of parallax-corrected shadows is incorrect too.\relax }}{7}}
+\newlabel{Fig:FusionProblem}{{1.4}{7}}
+\citation{CrytekRyse}
+\citation{CSMScrolling}
+\citation{ToroidalUpdate}
+\citation{ASM11}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Applications of Parallax Correction}{8}}
+\citation{ShadowsInGames}
+\newlabel{ASM:a}{{1.5a}{9}}
+\newlabel{sub@ASM:a}{{(a)}{a}}
+\newlabel{ASM:b}{{1.5b}{9}}
+\newlabel{sub@ASM:b}{{(b)}{b}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces \relax \fontsize  {9}{11}\selectfont  \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Parallax correction not only enables smooth sweeping shadows with adaptive shadow maps algorithm, but also makes it possible to start evicting old tiles from the cache before the update is fully finished without having discontinuities visible in \subref {ASM:a}.\relax }}{9}}
+\newlabel{Fig:ASM}{{1.5}{9}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {ASM shadows from a mix of new and old tiles.}}}{9}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {The same set of tiles with parallax correction applied.}}}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}Results}{9}}
+\citation{ASM11}
+\bibstyle{akpbib}
+\bibdata{Turchyn}
+\bibcite{CSMScrolling}{Acton\nobreakspace  {}12}
+\@writefile{lot}{\contentsline {table}{\numberline {1.1}{\ignorespaces \relax \fontsize  {9}{11}\selectfont  \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Reducing the range of cascaded shadow maps was a large win performance-wise. \textit  {Far Cry 4} used CSM with three cascades covering 80 meters range from the player's camera. We have reduced the range of three cascades down to 30 meters in \textit  {Far Cry 5}, since parallax-corrected adaptive shadow maps are good enough to be used at ranges closer than 80 meters. A great side effect of this range reduction was the increase of CSM texel density around the player.\relax }}{10}}
+\newlabel{Table:PerfCSM}{{1.1}{10}}
+\bibcite{ToroidalUpdate}{Asirvatham and Hoppe\nobreakspace  {}05}
+\newlabel{FC5:a}{{1.6a}{11}}
+\newlabel{sub@FC5:a}{{(a)}{a}}
+\newlabel{FC5:b}{{1.6b}{11}}
+\newlabel{sub@FC5:b}{{(b)}{b}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces \relax \fontsize  {9}{11}\selectfont  \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Parallax correction improves the transition between cascaded shadow maps at the foreground and adaptive shadow maps at the background in \textit  {Far Cry 5}.\relax }}{11}}
+\newlabel{Fig:FC5}{{1.6}{11}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {A mismatch between long range and dynamic shadows due to a slow update of cached long range shadows.}}}{11}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Parallax correction fixes the mismatch so that the long range shadows are perceived as a level of details of dynamic shadows rather than something unrelated.}}}{11}}
+\@writefile{toc}{\contentsline {section}{Bibliography}{11}}
+\bibcite{WitcherTerrain}{Gollent\nobreakspace  {}14}
+\bibcite{Reprojection}{Mark et\nobreakspace  {}al.\nobreakspace  {}97}
+\bibcite{CrytekRyse}{Schulz and Mader\nobreakspace  {}14}
+\bibcite{ASM11}{Turchyn\nobreakspace  {}11}
+\bibcite{ShadowsInGames}{Valient\nobreakspace  {}12}
+\bibcite{Reprojection2}{Yang et\nobreakspace  {}al.\nobreakspace  {}11}
+\@setckpt{Turchyn}{
+\setcounter{page}{13}
+\setcounter{equation}{6}
+\setcounter{enumi}{0}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{1}
+\setcounter{section}{4}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{6}
+\setcounter{table}{1}
+\setcounter{DefaultLines}{2}
+\setcounter{DefaultDepth}{0}
+\setcounter{L@lines}{0}
+\setcounter{L@depth}{0}
+\setcounter{parentequation}{0}
+\setcounter{endNonectr}{7}
+\setcounter{currNonectr}{0}
+\setcounter{currTheoremctr}{0}
+\setcounter{endTheoremctr}{0}
+\setcounter{Theorem}{0}
+\setcounter{currtheoremctr}{0}
+\setcounter{endtheoremctr}{0}
+\setcounter{currPropositionctr}{0}
+\setcounter{endPropositionctr}{0}
+\setcounter{currpropositionctr}{0}
+\setcounter{endpropositionctr}{0}
+\setcounter{currLemmactr}{0}
+\setcounter{endLemmactr}{0}
+\setcounter{currlemmactr}{0}
+\setcounter{endlemmactr}{0}
+\setcounter{currCorollaryctr}{0}
+\setcounter{endCorollaryctr}{0}
+\setcounter{currcorollaryctr}{0}
+\setcounter{endcorollaryctr}{0}
+\setcounter{currExamplectr}{0}
+\setcounter{endExamplectr}{0}
+\setcounter{currexamplectr}{0}
+\setcounter{endexamplectr}{0}
+\setcounter{currRemarkctr}{0}
+\setcounter{endRemarkctr}{0}
+\setcounter{currremarkctr}{0}
+\setcounter{endremarkctr}{0}
+\setcounter{currDefinitionctr}{0}
+\setcounter{endDefinitionctr}{0}
+\setcounter{currdefinitionctr}{0}
+\setcounter{enddefinitionctr}{0}
+\setcounter{currProblemctr}{0}
+\setcounter{endProblemctr}{0}
+\setcounter{currproblemctr}{0}
+\setcounter{endproblemctr}{0}
+\setcounter{curraxiomctr}{0}
+\setcounter{endaxiomctr}{0}
+\setcounter{currProofctr}{0}
+\setcounter{endProofctr}{0}
+\setcounter{Proof}{0}
+\setcounter{currproofctr}{0}
+\setcounter{endproofctr}{0}
+\setcounter{proof}{0}
+\setcounter{AlgoLine}{0}
+\setcounter{algocfline}{0}
+\setcounter{algocfproc}{0}
+\setcounter{algocf}{0}
+\setcounter{float@type}{8}
+\setcounter{lstnumber}{35}
+\setcounter{newflo@tctr}{4}
+\setcounter{colorplate}{0}
+\setcounter{lofdepth}{1}
+\setcounter{lotdepth}{1}
+\setcounter{ContinuedFloat}{0}
+\setcounter{KVtest}{0}
+\setcounter{subfigure}{0}
+\setcounter{subfigure@save}{2}
+\setcounter{subtable}{0}
+\setcounter{subtable@save}{0}
+\setcounter{lstlisting}{1}
+}

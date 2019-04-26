@@ -1,0 +1,916 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.6)  4 NOV 2018 15:15
+entering extended mode
+**./akpbook-Engel.tex
+(akpbook-Engel.tex
+LaTeX2e <2018-04-01> patch level 5
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk10.clo"
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\crop\crop.sty"
+Package: crop 2003/05/20 v1.9 crop marks (mf)
+\stockwidth=\dimen111
+\stockheight=\dimen112
+\CROP@index=\count92
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\CROP@offset=\count93
+Package crop Info: Local config file crop.cfg used on input line 605.
+
+("C:\Program Files\MiKTeX 2.9\tex\xelatex\xetexconfig\crop.cfg")) (akpbook.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks16
+\AP@partial=\box26
+\AP@footins=\box27
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\datetime\datetime.sty"
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count94
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.sty"
+Package: fmtcount 2017/12/24 v3.05
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+)
+\XKV@depth=\count95
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcprefix.sty"
+Package: fcprefix 2012/09/28
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcnumparser.sty"
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count96
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen113
+)
+\c@padzeroesN=\count97
+\fc@tmpcatcode=\count98
+\@DT@modctr=\count99
+\@ordinalctr=\count100
+\@orgargctr=\count101
+\@strctr=\count102
+\@tmpstrctr=\count103
+\@DT@loopN=\count104
+\@DT@X=\count105
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\datetime\datetime-defaults.sty"
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count106
+\@month=\count107
+\@year=\count108
+\c@HOUR=\count109
+\c@HOURXII=\count110
+\c@MINUTE=\count111
+\c@TOHOUR=\count112
+\c@TOMINUTE=\count113
+\c@SECOND=\count114
+\currenthour=\count115
+\currentminute=\count116
+\currentsecond=\count117
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count118
+\dayofyear=\count119
+\dayofweek=\count120
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks20
+\dt@b=\toks21
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\lettrine\lettrine.sty"
+File: lettrine.sty 2018-08-28 v2.21 (Daniel Flipo)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\minifp\minifp.sty"
+Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack
+-based programing language.
+\MFP@loopctr=\count121
+)
+\c@DefaultLines=\count122
+\c@DefaultDepth=\count123
+\DefaultFindent=\dimen116
+\DefaultNindent=\dimen117
+\DefaultSlope=\dimen118
+\DiscardVskip=\dimen119
+\L@lbox=\box28
+\L@tbox=\box29
+\c@L@lines=\count124
+\c@L@depth=\count125
+\L@Pindent=\dimen120
+\L@Findent=\dimen121
+\L@Nindent=\dimen122
+\L@lraise=\dimen123
+\L@first=\dimen124
+\L@next=\dimen125
+\L@slope=\dimen126
+\L@height=\dimen127
+\L@novskip=\dimen128
+\L@target@ht=\dimen129
+\L@target@dp=\dimen130
+\L@target@tht=\dimen131
+\LettrineWidth=\dimen132
+\LettrineHeight=\dimen133
+\LettrineDepth=\dimen134
+
+Loading lettrine.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\lettrine\lettrine.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen135
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count126
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count127
+\leftroot@=\count128
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count129
+\DOTSCASE@=\count130
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen136
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count131
+\c@MaxMatrixCols=\count132
+\dotsspace@=\muskip11
+\c@parentequation=\count133
+\dspbrk@lvl=\count134
+\tag@help=\toks22
+\row@=\count135
+\column@=\count136
+\maxfields@=\count137
+\andhelp@=\toks23
+\eqnshift@=\dimen137
+\alignsep@=\dimen138
+\tagshift@=\dimen139
+\tagwidth@=\dimen140
+\totwidth@=\dimen141
+\lineht@=\dimen142
+\@envbody=\toks24
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ntheorem\ntheorem.sty"
+Style `ntheorem', Version 1.33 <2011/08/15>
+Package: ntheorem 2011/08/15 1.33
+\theorem@style=\toks26
+\theorem@@style=\toks27
+\theorembodyfont=\toks28
+\theoremnumbering=\toks29
+\theorempreskipamount=\skip46
+\theorempostskipamount=\skip47
+\theoremframepreskipamount=\skip48
+\theoremframepostskipamount=\skip49
+\theoreminframepreskipamount=\skip50
+\theoreminframepostskipamount=\skip51
+\theorem@preskip=\toks30
+\theorem@postskip=\toks31
+\theorem@framepreskip=\toks32
+\theorem@framepostskip=\toks33
+\theorem@inframepreskip=\toks34
+\theorem@inframepostskip=\toks35
+\theoremindent=\dimen143
+\theorem@indent=\dimen144
+\theoremrightindent=\dimen145
+\theorem@rightindent=\dimen146
+\theoremheaderfont=\toks36
+\theoremseparator=\toks37
+\theoremprework=\toks38
+\theorempostwork=\toks39
+\theoremsymbol=\toks40
+\qedsymbol=\toks41
+\theoremkeyword=\toks42
+\qedsymbol=\toks43
+\thm@topsep=\skip52
+\thm@topsepadd=\skip53
+Package ntheorem Info: Option `thmmarks' loaded on input line 1175.
+\c@endNonectr=\count138
+\c@currNonectr=\count139
+\mysavskip=\skip54
+Package ntheorem Info: option `amsmath' handling for `thmmarks' loaded on input
+ line 1175.
+\thm@amstmpdepth=\dimen147
+\tagwidth=\dimen148
+)
+\c@currTheoremctr=\count140
+\c@endTheoremctr=\count141
+\c@Theorem=\count142
+\c@currtheoremctr=\count143
+\c@endtheoremctr=\count144
+\c@currPropositionctr=\count145
+\c@endPropositionctr=\count146
+\c@currpropositionctr=\count147
+\c@endpropositionctr=\count148
+\c@currLemmactr=\count149
+\c@endLemmactr=\count150
+\c@currlemmactr=\count151
+\c@endlemmactr=\count152
+\c@currCorollaryctr=\count153
+\c@endCorollaryctr=\count154
+\c@currcorollaryctr=\count155
+\c@endcorollaryctr=\count156
+\c@currExamplectr=\count157
+\c@endExamplectr=\count158
+\c@currexamplectr=\count159
+\c@endexamplectr=\count160
+\c@currRemarkctr=\count161
+\c@endRemarkctr=\count162
+\c@currremarkctr=\count163
+\c@endremarkctr=\count164
+\c@currDefinitionctr=\count165
+\c@endDefinitionctr=\count166
+\c@currdefinitionctr=\count167
+\c@enddefinitionctr=\count168
+\c@currProblemctr=\count169
+\c@endProblemctr=\count170
+\c@currproblemctr=\count171
+\c@endproblemctr=\count172
+\c@curraxiomctr=\count173
+\c@endaxiomctr=\count174
+\c@currProofctr=\count175
+\c@endProofctr=\count176
+\c@Proof=\count177
+\c@currproofctr=\count178
+\c@endproofctr=\count179
+\c@proof=\count180
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count181
+\algocf@hangindent=\skip55
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count182
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\relsize\relsize.sty"
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip56
+\skiplinenumber=\skip57
+\skiprule=\skip58
+\skiphlne=\skip59
+\skiptext=\skip60
+\skiplength=\skip61
+\algomargin=\skip62
+\skipalgocfslide=\skip63
+\algowidth=\dimen149
+\inoutsize=\dimen150
+\inoutindent=\dimen151
+\interspacetitleruled=\dimen152
+\interspacealgoruled=\dimen153
+\interspacetitleboxruled=\dimen154
+\algocf@ruledwidth=\skip64
+\algocf@inoutbox=\box32
+\algocf@inputbox=\box33
+\AlCapSkip=\skip65
+\AlCapHSkip=\skip66
+\algoskipindent=\skip67
+\algocf@nlbox=\box34
+\algocf@hangingbox=\box35
+\algocf@untilbox=\box36
+\algocf@skipuntil=\skip68
+\algocf@capbox=\box37
+\algocf@lcaptionbox=\skip69
+\algoheightruledefault=\skip70
+\algoheightrule=\skip71
+\algotitleheightruledefault=\skip72
+\algotitleheightrule=\skip73
+\c@algocfline=\count183
+\c@algocfproc=\count184
+\c@algocf=\count185
+\algocf@algoframe=\box38
+\algocf@algobox=\box39
+) (float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count186
+\float@exts=\toks44
+\float@box=\box40
+\@float@everytoks=\toks45
+\@floatcapt=\box41
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count187
+\lst@gtempboxa=\box42
+\lst@token=\toks46
+\lst@length=\count188
+\lst@currlwidth=\dimen155
+\lst@column=\count189
+\lst@pos=\count190
+\lst@lostspace=\dimen156
+\lst@width=\dimen157
+\lst@newlines=\count191
+\lst@lineno=\count192
+\lst@maxwidth=\dimen158
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count193
+\lst@skipnumbers=\count194
+\lst@framebox=\box43
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip74
+\f@nch@O@elh=\skip75
+\f@nch@O@erh=\skip76
+\f@nch@O@olh=\skip77
+\f@nch@O@orh=\skip78
+\f@nch@O@elf=\skip79
+\f@nch@O@erf=\skip80
+\f@nch@O@olf=\skip81
+\f@nch@O@orf=\skip82
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ccaption\ccaption.sty"
+Package: ccaption 2011/08/07 v3.2c Extended captioning and new floats
+\@contcwidth=\skip83
+\@contindw=\skip84
+\abovelegendskip=\skip85
+\belowlegendskip=\skip86
+\c@newflo@tctr=\count195
+)
+\c@colorplate=\count196
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip87
+\cftbeforetoctitleskip=\skip88
+\cftaftertoctitleskip=\skip89
+\cftbeforepartskip=\skip90
+\cftpartnumwidth=\skip91
+\cftpartindent=\skip92
+\cftbeforechapskip=\skip93
+\cftchapindent=\skip94
+\cftchapnumwidth=\skip95
+\cftbeforesecskip=\skip96
+\cftsecindent=\skip97
+\cftsecnumwidth=\skip98
+\cftbeforesubsecskip=\skip99
+\cftsubsecindent=\skip100
+\cftsubsecnumwidth=\skip101
+\cftbeforesubsubsecskip=\skip102
+\cftsubsubsecindent=\skip103
+\cftsubsubsecnumwidth=\skip104
+\cftbeforeparaskip=\skip105
+\cftparaindent=\skip106
+\cftparanumwidth=\skip107
+\cftbeforesubparaskip=\skip108
+\cftsubparaindent=\skip109
+\cftsubparanumwidth=\skip110
+\cftbeforeloftitleskip=\skip111
+\cftafterloftitleskip=\skip112
+\cftbeforefigskip=\skip113
+\cftfigindent=\skip114
+\cftfignumwidth=\skip115
+\c@lofdepth=\count197
+\c@lotdepth=\count198
+\cftbeforelottitleskip=\skip116
+\cftafterlottitleskip=\skip117
+\cftbeforetabskip=\skip118
+\cfttabindent=\skip119
+\cfttabnumwidth=\skip120
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen159
+\captionmargin@=\dimen160
+\captionwidth=\dimen161
+\caption@tempdima=\dimen162
+\caption@indent=\dimen163
+\caption@parindent=\dimen164
+\caption@hangindent=\dimen165
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\let \@conttempa \relax
+ \ifdim \prevdepth >-99\p@ \vskip \abovecaptionskip \else \def \@conttempa {\vb
+ox to\topskip {}}\fi \let \@contfnote \footnote \renewcommand {\footnote }[2][]
+{} \let \@contfmark \footnotemark \renewcommand {\footnotemark }[1][]{} \let \@
+contlabel \label \renewcommand {\label }[1]{} \sbox \@tempboxa {\@contnfont #1\
+@contdelim \@conttfont #2} \let \footnote \@contfnote \let \footnotemark \@cont
+fmark \let \label \@contlabel \ifdim \wd \@tempboxa <\linewidth \centering \fi 
+\if@contcw \centering \parbox {\@contcwidth }{\fi \if@conthang \sbox \@tempboxa
+ {\@contnfont #1\@contdelim } \@contpre {\@contnfont #1\@contdelim }\@conttempa
+ {\@contcstyle \hangindent =\wd \@tempboxa \hangafter =\@ne \@conttfont #2\par 
+} \else \if@contindent \@contpre {\@contnfont #1\@contdelim }\@conttempa {\@con
+tcstyle \hangindent =\@contindw \hangafter =\@ne \@conttfont #2\par } \else \@c
+ontpre {\@contnfont #1\@contdelim }\@conttempa {\@contcstyle \@conttfont #2\par
+ } \fi \fi \@contpost \if@contcw \par } \fi \vskip \belowcaptionskip .
+\c@ContinuedFloat=\count199
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+)
+\c@KVtest=\count266
+\sf@farskip=\skip121
+\sf@captopadj=\dimen166
+\sf@capskip=\skip122
+\sf@nearskip=\skip123
+\c@subfigure=\count267
+\c@subfigure@save=\count268
+\c@subtable=\count269
+\c@subtable@save=\count270
+\sf@top=\skip124
+\sf@bottom=\skip125
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
+\multirow@colwidth=\skip126
+\multirow@cntb=\count271
+\multirow@dima=\skip127
+\bigstrutjot=\dimen167
+)
+\@indexfile=\write3
+\openout3 = `akpbook-Engel.idx'.
+
+
+Writing index file akpbook-Engel.idx
+(akpbook-Engel.aux (Turchyn.aux))
+\openout1 = `akpbook-Engel.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead twoside 
+* h-part:(L,W,R)=(67.75311pt, 324.0pt, 41.86688pt)
+* v-part:(T,H,B)=(45.16875pt, 540.0pt, 65.26125pt)
+* \paperwidth=433.62pt
+* \paperheight=650.43pt
+* \textwidth=324.0pt
+* \textheight=516.0pt
+* \oddsidemargin=-4.51688pt
+* \evensidemargin=-30.4031pt
+* \topmargin=-27.10124pt
+* \headheight=12.0pt
+* \headsep=12.0pt
+* \topskip=10.0pt
+* \footskip=24.0pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count272
+\scratchdimen=\dimen168
+\scratchbox=\box44
+\nofMPsegments=\count273
+\nofMParguments=\count274
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count275
+\MPscratchDim=\dimen169
+\MPnumerator=\count276
+\makeMPintoPDFobject=\count277
+\everyMPtoPDFconversion=\toks48
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package crop Info: requested driver: `' on input line 136.
+Package crop Info: detected driver: `pdftex' on input line 136.
+Package crop Info: using `pdftex' graphics driver on input line 136.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fc-english.def"
+File: fc-english.def 2016/01/12
+)
+\c@lstlisting=\count278
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+\openout2 = `Turchyn.aux'.
+
+ (Turchyn.tex
+Chapter 1.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <24> not available
+(Font)              size <24.88> substituted on input line 1.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <24> not available
+(Font)              size <24.88> substituted on input line 1.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 1.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1--1
+[]$[]$|   
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <15> not available
+(Font)              size <14.4> substituted on input line 4.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <15> not available
+(Font)              size <14.4> substituted on input line 4.
+
+<Figures/pcsm_1a.pdf, id=1, 557.08125pt x 472.76625pt>
+File: Figures/pcsm_1a.pdf Graphic file (type pdf)
+<use Figures/pcsm_1a.pdf>
+Package pdftex.def Info: Figures/pcsm_1a.pdf  used on input line 17.
+(pdftex.def)             Requested size: 155.51862pt x 131.97688pt.
+<Figures/pcsm_1b.pdf, id=2, 557.08125pt x 472.76625pt>
+File: Figures/pcsm_1b.pdf Graphic file (type pdf)
+<use Figures/pcsm_1b.pdf>
+Package pdftex.def Info: Figures/pcsm_1b.pdf  used on input line 18.
+(pdftex.def)             Requested size: 155.51862pt x 131.97688pt.
+[1{C:/Users/Pavlo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+
+ <./Figures/pcsm_1a.pdf> <./Figures/pcsm_1b.pdf>]
+<Figures/pcsm_2a.pdf, id=19, 177.66376pt x 174.6525pt>
+File: Figures/pcsm_2a.pdf Graphic file (type pdf)
+<use Figures/pcsm_2a.pdf>
+Package pdftex.def Info: Figures/pcsm_2a.pdf  used on input line 72.
+(pdftex.def)             Requested size: 155.51862pt x 152.88718pt.
+<Figures/pcsm_2b.pdf, id=20, 177.66376pt x 174.6525pt>
+File: Figures/pcsm_2b.pdf Graphic file (type pdf)
+<use Figures/pcsm_2b.pdf>
+Package pdftex.def Info: Figures/pcsm_2b.pdf  used on input line 78.
+(pdftex.def)             Requested size: 155.51862pt x 152.88718pt.
+ [2] [3 <./Figures/pcsm_2a.pdf> <./Figures/pcsm_2b.pdf>]
+<Figures/pcsm_3a.pdf, id=68, 179.67125pt x 172.645pt>
+File: Figures/pcsm_3a.pdf Graphic file (type pdf)
+<use Figures/pcsm_3a.pdf>
+Package pdftex.def Info: Figures/pcsm_3a.pdf  used on input line 129.
+(pdftex.def)             Requested size: 155.51862pt x 149.44649pt.
+<Figures/pcsm_3b.pdf, id=69, 182.6825pt x 173.64874pt>
+File: Figures/pcsm_3b.pdf Graphic file (type pdf)
+<use Figures/pcsm_3b.pdf>
+Package pdftex.def Info: Figures/pcsm_3b.pdf  used on input line 133.
+(pdftex.def)             Requested size: 155.51862pt x 147.8353pt.
+ [4 <./Figures/pcsm_3a.pdf> <./Figures/pcsm_3b.pdf>]
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2018/09/02 1.7 listings language file
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+)
+Overfull \hbox (2.40723pt too wide) in paragraph at lines 195--196
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 198.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 198.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 199.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 208.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 208.
+ [5]
+Underfull \vbox (badness 4036) has occurred while \output is active []
+
+ [6]
+<Figures/pcsm_new_a.pdf, id=120, 324.21124pt x 787.94376pt>
+File: Figures/pcsm_new_a.pdf Graphic file (type pdf)
+<use Figures/pcsm_new_a.pdf>
+Package pdftex.def Info: Figures/pcsm_new_a.pdf  used on input line 265.
+(pdftex.def)             Requested size: 77.76178pt x 188.99013pt.
+<Figures/pcsm_new_b.pdf, id=121, 324.21124pt x 787.94376pt>
+File: Figures/pcsm_new_b.pdf Graphic file (type pdf)
+<use Figures/pcsm_new_b.pdf>
+Package pdftex.def Info: Figures/pcsm_new_b.pdf  used on input line 266.
+(pdftex.def)             Requested size: 77.76178pt x 188.99013pt.
+<Figures/pcsm_new_c.pdf, id=122, 324.21124pt x 787.94376pt>
+File: Figures/pcsm_new_c.pdf Graphic file (type pdf)
+<use Figures/pcsm_new_c.pdf>
+Package pdftex.def Info: Figures/pcsm_new_c.pdf  used on input line 267.
+(pdftex.def)             Requested size: 77.76178pt x 188.99013pt.
+<Figures/pcsm_new_d.pdf, id=123, 324.21124pt x 787.94376pt>
+File: Figures/pcsm_new_d.pdf Graphic file (type pdf)
+<use Figures/pcsm_new_d.pdf>
+Package pdftex.def Info: Figures/pcsm_new_d.pdf  used on input line 268.
+(pdftex.def)             Requested size: 77.76178pt x 188.99013pt.
+
+
+LaTeX Warning: Citation `PCSS' on page 7 undefined on input line 274.
+
+
+LaTeX Warning: Citation `PCSS' on page 7 undefined on input line 274.
+
+
+Underfull \vbox (badness 8113) has occurred while \output is active []
+
+ [7 <./Figures/pcsm_new_a.pdf> <./Figures/pcsm_new_b.pdf> <./Figures/pcsm_new_c
+.pdf> <./Figures/pcsm_new_d.pdf>]
+<Figures/pcsm_4a.pdf, id=142, 557.08125pt x 472.76625pt>
+File: Figures/pcsm_4a.pdf Graphic file (type pdf)
+<use Figures/pcsm_4a.pdf>
+Package pdftex.def Info: Figures/pcsm_4a.pdf  used on input line 325.
+(pdftex.def)             Requested size: 155.51862pt x 131.97688pt.
+<Figures/pcsm_4b.pdf, id=143, 557.08125pt x 472.76625pt>
+File: Figures/pcsm_4b.pdf Graphic file (type pdf)
+<use Figures/pcsm_4b.pdf>
+Package pdftex.def Info: Figures/pcsm_4b.pdf  used on input line 327.
+(pdftex.def)             Requested size: 155.51862pt x 131.97688pt.
+ [8] [9 <./Figures/pcsm_4a.pdf> <./Figures/pcsm_4b.pdf>]
+<Figures/pcsm_5a.pdf, id=156, 557.08125pt x 314.17375pt>
+File: Figures/pcsm_5a.pdf Graphic file (type pdf)
+<use Figures/pcsm_5a.pdf>
+Package pdftex.def Info: Figures/pcsm_5a.pdf  used on input line 407.
+(pdftex.def)             Requested size: 291.59802pt x 164.4547pt.
+<Figures/pcsm_5b.pdf, id=157, 557.08125pt x 314.17375pt>
+File: Figures/pcsm_5b.pdf Graphic file (type pdf)
+<use Figures/pcsm_5b.pdf>
+Package pdftex.def Info: Figures/pcsm_5b.pdf  used on input line 410.
+(pdftex.def)             Requested size: 291.59802pt x 164.4547pt.
+
+(akpbook-Engel.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+[11 <./Figures/pcsm_5a.pdf> <./Figures/pcsm_5b.pdf>])) [12]
+No file akpbook-Engel.ind.
+\tf@thm=\write4
+\openout4 = `akpbook-Engel.thm'.
+
+(akpbook-Engel.aux (Turchyn.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.88pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 10367 strings out of 492970
+ 148535 string characters out of 3135855
+ 462050 words of memory out of 3000000
+ 14015 multiletter control sequences out of 15000+200000
+ 12881 words of font info for 48 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 61i,11n,96p,1243b,1504s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
+Output written on akpbook-Engel.pdf (12 pages, 1239618 bytes).
+PDF statistics:
+ 241 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+

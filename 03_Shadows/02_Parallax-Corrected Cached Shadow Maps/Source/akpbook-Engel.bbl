@@ -1,0 +1,55 @@
+\begin{thebibliography}{99}
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem[Acton~12]{CSMScrolling}
+Mike Acton.
+\newblock \enquote{CSM Scrolling, An Acceleration Technique for The Rendering
+  of Cascaded Shadow Maps.}
+\newblock Presented at Advances in Real-Time Rendering in Games course,
+  SIGGRAPH'12, 2012.
+
+\bibitem[Asirvatham and Hoppe~05]{ToroidalUpdate}
+Arul Asirvatham and Hugues Hoppe.
+\newblock \enquote{Terrain rendering using GPU-based geometry clipmaps.}
+\newblock In \emph{GPU Gems 2}, pp.~27--45. Addison-Wesley, 2005.
+
+\bibitem[Fernando~05]{PCSS}
+Randima Fernando.
+\newblock \enquote{Percentage-closer soft shadows.}
+\newblock In \emph{SIGGRAPH '05: ACM SIGGRAPH 2005 Sketches}, p.~35. New York,
+  NY, USA: ACM, 2005.
+
+\bibitem[Gollent~14]{WitcherTerrain}
+Marcin Gollent.
+\newblock \enquote{Landscape Creation and Rendering in REDengine 3.}
+\newblock Presented at GDC'14, 2014.
+
+\bibitem[Mark et~al.~97]{Reprojection}
+William~R. Mark, Leonard McMillan, and Gary Bishop.
+\newblock \enquote{Post-rendering 3D Warping.}
+\newblock In \emph{Proceedings of the 1997 Symposium on Interactive 3D
+  Graphics}, \emph{I3D '97}, pp.~7--ff. New York, NY, USA: ACM, 1997.
+
+\bibitem[Schulz and Mader~14]{CrytekRyse}
+Nicolas Schulz and Theodor Mader.
+\newblock \enquote{Rendering Techniques in Ryse: Son of Rome.}
+\newblock Presented at SIGGRAPH'14, 2014.
+
+\bibitem[Turchyn~11]{ASM11}
+Pavlo Turchyn.
+\newblock \enquote{Fast Soft Shadows via Adaptive Shadow Maps.}
+\newblock In \emph{GPU Pro 2}, edited by Wolfgang Engel, pp.~215--224. A K
+  Peters, 2011.
+
+\bibitem[Valient~12]{ShadowsInGames}
+Michal Valient.
+\newblock \enquote{Shadows in Games - Practical Considerations.}
+\newblock Presented at Real-Time Shadows course, SIGGRAPH'12, 2012.
+
+\bibitem[Yang et~al.~11]{Reprojection2}
+Lei Yang, Yu-Chiu Tse, Pedro~V. Sander, Jason Lawrence, Diego Nehab, Hugues
+  Hoppe, and Clara~L. Wilkins.
+\newblock \enquote{Image-based Bidirectional Scene Reprojection.}
+\newblock \emph{ACM Trans. Graph.} 30:6 (2011), 150:1--150:10.
+
+\end{thebibliography}
