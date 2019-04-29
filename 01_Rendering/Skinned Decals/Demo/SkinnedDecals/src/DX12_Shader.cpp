@@ -22,7 +22,7 @@ static bool ReadShaderFile(const char *fileName, unsigned char **data, UINT *dat
 		fclose(file);
 		return false;
 	}
-	*data = new unsigned char[fileStats.st_size];
+	 *data = new unsigned char[fileStats.st_size + 1];
 	if(!(*data))
 	{
 		fclose(file);
